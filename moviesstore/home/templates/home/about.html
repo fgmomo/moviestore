@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="p-3">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-6 mx-auto mb-3">
+        <h2>About</h2>
+        <hr />
+        <p>Chez Movies Store, nous proposons une vaste bibliothèque numérique qui couvre tous les genres,
+          garantissant ainsi que tous les passionnés de cinéma y trouveront leur compte. Parcourez notre vaste collection de films, 
+          y compris les dernières sorties, les classiques indémodables et les joyaux cachés. En quelques clics, 
+          vous pouvez louer ou acheter vos films préférés et les visionner instantanément en haute définition.</p>
+        <p>Découvrez la commodité de notre plateforme numérique, qui vous permet de regarder des films 
+          sur l'appareil de votre choix, qu'il s'agisse d'une smart TV, d'une tablette ou d'un smartphone. Grâce à notre recherche intuitive 
+          et à nos fonctions de recommandation, il n'a jamais été aussi facile de trouver votre prochain film.</p>
+      </div>
+      <div class="col-md-6 mx-auto mb-3 text-center">
+        <img src="{% static 'img/about.jpeg' %}" class="max-width-100" alt="about" />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
